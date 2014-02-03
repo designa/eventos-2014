@@ -1,0 +1,1 @@
+$(function(){"use strict";$("#slides").slidesjs({width:940,height:480,play:{active:!0,auto:!0,interval:4e3,swap:!0}})});
