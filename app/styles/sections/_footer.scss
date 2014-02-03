@@ -2,7 +2,7 @@
 
 .footer {
     background: #000;
-    height: 150px;
+    height: 200px;
     color: $WHITE;
     .box-contact {
       padding-top: 30px;
@@ -18,8 +18,9 @@
     .box-logo {
       padding-top: 30px;
       padding-left: 95px;
-      .text-credit {
-        float: left;
+      .photo-credit {
+        float: right;
+        padding-bottom: 30px;
       }
     }
 }
