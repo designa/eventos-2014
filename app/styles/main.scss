@@ -33,7 +33,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 }
 
 .img-border {
-  border: 5px solid #fbfbfb;
+  border: 3px solid #fbfbfb;
 }
 
 .box-images {
@@ -166,9 +166,19 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 }
 
 // Box team
-.photo {
-    border: 5px solid #fbfbfb;
+
+.box-team {
+    padding-bottom: 30px;
 }
+
+.photo {
+    border: 3px solid #fbfbfb;
+}
+
+.photo-team {
+    padding-bottom: 30px;
+}
+
 .link-photo {
     opacity: 1;
     -webkit-transition: all 1s ease;
@@ -185,10 +195,16 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
+
 .name-center {
     text-align: center;
-    width: 155px;
+    padding-top: 10px;
 }
+.name-title {
+  color: #f0f0f0;
+  font-size: 1em;
+}
+
 .link-team {
     color: #fff;
 }
