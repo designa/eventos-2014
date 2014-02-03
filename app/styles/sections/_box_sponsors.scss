@@ -1,0 +1,31 @@
+// Box Sponsors
+
+.box-sponsor {
+  background: $WHITE;
+}
+
+.box-sponsor {
+  .box-titles, .text, .text a {
+  color: $GRAY;
+  }
+  .box-titles {
+    padding-bottom: 0px;
+  }
+  .text {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .text a {
+    text-decoration: underline;
+  }
+}
+
+.box-text-sponsor{
+    padding-right: 30px;
+}
+
+.box-slides-sponsor {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}

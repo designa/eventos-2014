@@ -1,0 +1,47 @@
+// Box team
+
+.box-team {
+    padding-bottom: 30px;
+}
+
+.photo {
+    border: 3px solid $WHITE;
+}
+
+.photo-team {
+    padding-bottom: 30px;
+}
+
+.link-photo {
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.link-photo:hover {
+    opacity: 0.4;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.name-center {
+    text-align: center;
+    padding-top: 10px;
+}
+.name-title {
+  color: #f0f0f0;
+  font-size: 1em;
+}
+
+.link-team {
+    color: $WHITE;
+}
+.link-team:hover {
+    color: $WHITE;
+    text-decoration: none;
+}

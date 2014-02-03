@@ -1,0 +1,25 @@
+// Footer
+
+.footer {
+    background: #000;
+    height: 150px;
+    color: $WHITE;
+    .box-contact {
+      padding-top: 30px;
+      a{
+        color: $BLUE;
+      }
+      a,
+      .phone {
+          font-size: 1.2em;
+      }
+    }
+
+    .box-logo {
+      padding-top: 30px;
+      padding-left: 95px;
+      .text-credit {
+        float: left;
+      }
+    }
+}

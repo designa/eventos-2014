@@ -1,0 +1,63 @@
+// Media Queries
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .slide-container {
+        width: auto
+      }
+      .box-videos {
+        padding-right: 15px;
+      }
+      .box-videos .text {
+        padding-bottom: 0px;
+      }
+      .box-infographic {
+        padding-left: 15px;
+      }
+      .box-text-sponsor {
+        padding-right: 15px;
+      }
+      .box-slides-sponsor{
+        padding-right: 15px;
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .slide-container {
+        width: auto
+      }
+      .box-videos {
+        padding-right: 15px;
+      }
+      .box-videos .text {
+        padding-bottom: 0px;
+      }
+      .box-infographic {
+        padding-left: 15px;
+      }
+      .box-text-sponsor {
+        padding-right: 15px;
+      }
+      .box-slides-sponsor{
+        padding-right: 15px;
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .slide-container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .slide-container {
+        width: 1140px
+      }
+    }

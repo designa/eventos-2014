@@ -1,0 +1,45 @@
+/*Header */
+
+.header{
+    background: $GRAY;
+    padding-bottom: 50px;
+
+    .title {
+        color: $WHITE;
+        font-family: 'Nunito', sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+        padding-top: 100px;
+    }
+    .sub-title {
+        color: $BLUE;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 100;
+    }
+}
+
+.img-border {
+  border: 3px solid $WHITE;
+}
+
+.box-images {
+    margin-bottom: 30px;
+}
+
+.box-texts {
+    .content-title {
+        color: $WHITE;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        font-weight: 300;
+        padding-top: 20px;
+    }
+    .text {
+        color:$WHITE;
+        a {
+            color: $WHITE;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+// Boxes Content
+
+.boxes {
+        background: $GRAY;
+}
+
+.boxes .box-titles,
+.box-sponsor .box-titles {
+        color:  $WHITE;
+        font-family: 'Nunito', sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 1.6em;
+        padding-top: 50px;
+        padding-bottom: 20px;
+}
+.boxes .text,
+.box-sponsor .text {
+        color: $WHITE;
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+.boxes .text a,
+.box-sponsor .text a {
+            color:  $WHITE;
+            text-decoration: underline;
+        }
