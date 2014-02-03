@@ -32,6 +32,10 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     }
 }
 
+.img-border {
+  border: 5px solid #fbfbfb;
+}
+
 .box-images {
     margin-bottom: 30px;
 }
@@ -108,7 +112,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 .box-sponsor .text {
         color:#fbfbfb;
         padding-top: 20px;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
     }
 .boxes .text a,
 .box-sponsor .text a {
@@ -155,17 +159,65 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     padding-right: 30px;
 }
 
+.box-slides-sponsor {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+// Box team
+.photo {
+    border: 5px solid #fbfbfb;
+}
+.link-photo {
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.link-photo:hover {
+    opacity: 0.4;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.name-center {
+    text-align: center;
+    width: 155px;
+}
+.link-team {
+    color: #fff;
+}
+.link-team:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 // Footer
 
 .footer {
     background: #000;
     height: 150px;
+    color: #fbfbfb;
+    .box-contact {
+      padding-top: 30px;
+      a,
+      .phone {
+          font-size: 1.2em;
+      }
+    }
 
-    a,
-    .phone {
-        color: #2e2e2e;
-        font-size: 1.2em;
+    .box-logo {
+      padding-top: 30px;
+      padding-left: 70px;
+      .text-credit {
+        float: left;
+      }
     }
 }
 
@@ -304,10 +356,16 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
       .box-videos {
         padding-right: 15px;
       }
+      .box-videos .text {
+        padding-bottom: 0px;
+      }
       .box-infographic {
         padding-left: 15px;
       }
       .box-text-sponsor {
+        padding-right: 15px;
+      }
+      .box-slides-sponsor{
         padding-right: 15px;
       }
     }
@@ -320,10 +378,16 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
       .box-videos {
         padding-right: 15px;
       }
+      .box-videos .text {
+        padding-bottom: 0px;
+      }
       .box-infographic {
         padding-left: 15px;
       }
       .box-text-sponsor {
+        padding-right: 15px;
+      }
+      .box-slides-sponsor{
         padding-right: 15px;
       }
     }
