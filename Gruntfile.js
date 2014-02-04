@@ -22,7 +22,7 @@ module.exports = function (grunt) {
         yeoman: {
             // Configurable paths
             app: 'app',
-            dist: 'dist'
+            dist: 'dist/eventos2014'
         },
 
         // Watches files for changes and runs tasks based on the changed files
