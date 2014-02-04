@@ -24,6 +24,9 @@
       .box-slides-sponsor{
         padding-right: 15px;
       }
+      .footer {
+        height: 300px;
+      }
     }
 
     /* For smartphones */
@@ -43,8 +46,11 @@
       .box-text-sponsor {
         padding-right: 15px;
       }
-      .box-slides-sponsor{
+      .box-slides-sponsor {
         padding-right: 15px;
+      }
+      .footer {
+        height: 300px;
       }
     }
 
@@ -52,6 +58,9 @@
     @media (min-width: 768px) and (max-width: 979px) {
       .slide-container {
         width: 724px
+      }
+      .footer {
+        height: 300px;
       }
     }
 
