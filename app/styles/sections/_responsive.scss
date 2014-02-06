@@ -41,6 +41,26 @@
 
     /* For smartphones */
     @media (max-width: 480px) {
+      .header {
+        .logo {
+          padding-left: 80px;
+          padding-top: 0px;
+        }
+        .title {
+          font-size: 3.5em;
+          line-height: 50px;
+          padding-top: 50px;
+          width: auto;
+        }
+        .sub-title {
+          font-size: 1.8em;
+          width: auto;
+          line-height: 10px;
+        }
+      }
+      .box-images {
+        margin-top: 100px;
+      }
       .slide-container {
         width: auto
       }
