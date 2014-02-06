@@ -1,11 +1,25 @@
 // Box Videos
 
+.box-videos,
+.box-infographic {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
 .box-videos {
   padding-right: 30px;
+  .text {
+    font-size: 1.2em;
+    line-height: 1.7em;
+  }
 }
 
 // Box Infografico
 
 .box-infographic {
   padding-left: 30px;
+  .text {
+    font-size: 1.2em;
+    line-height: 1.7em;
+  }
 }

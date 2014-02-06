@@ -3,8 +3,8 @@
     /* For tablets & smart phones */
     @media (max-width: 767px) {
       body {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
       }
       .slide-container {
         width: auto
@@ -21,11 +21,21 @@
       .box-text-sponsor {
         padding-right: 15px;
       }
-      .box-slides-sponsor{
+      .btn-sponsor {
+        width: 100%;
+      }
+      .box-slides-sponsor {
         padding-right: 15px;
+        padding-left: 15px;
       }
       .footer {
         height: 300px;
+        .box-logo {
+          padding-left: 10px;
+          .text-credit {
+            padding-left: 10px;
+          }
+        }
       }
     }
 
@@ -46,11 +56,21 @@
       .box-text-sponsor {
         padding-right: 15px;
       }
+      .btn-sponsor {
+        width: 100%;
+      }
       .box-slides-sponsor {
         padding-right: 15px;
+        padding-left: 15px;
       }
       .footer {
         height: 300px;
+        .box-logo {
+          padding-left: 10px;
+          .text-credit {
+            padding-left: 10px;
+          }
+        }
       }
     }
 
