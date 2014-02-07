@@ -13,20 +13,12 @@
 }
 
 .link-photo {
+    @extend %element_transition;
     opacity: 1;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
 }
 .link-photo:hover {
+    @extend %element_transition;
     opacity: 0.4;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
 }
 
 .name-center {

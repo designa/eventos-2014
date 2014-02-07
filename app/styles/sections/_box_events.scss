@@ -1,5 +1,16 @@
 // Box Chamada dos eventos
 
+.intro-events {
+    a {
+        @extend %element_transition;
+        opacity: 1;
+    }
+    a:hover {
+        @extend %element_transition;
+        opacity: 0.6;
+    }
+}
+
 .startup {
     background: #518c15;
     img {

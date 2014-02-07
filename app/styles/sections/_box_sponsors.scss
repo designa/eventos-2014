@@ -18,9 +18,13 @@
     line-height: 1.7em;
   }
   .btn-sponsor {
+    @extend %element_transition;
     text-decoration: none;
     padding: 15px 50px;
     font-size: 1.2em;
+  }
+  .btn-sponsor:hover {
+    @extend %element_transition;
   }
 }
 
@@ -36,4 +40,12 @@
     padding-left: 30px;
     margin-top: 60px;
     margin-bottom: 60px;
+    img {
+      @extend %element_transition;
+      opacity: 1;
+    }
+    img:hover {
+      @extend %element_transition;
+      opacity: 0.6;
+    }
 }

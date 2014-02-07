@@ -12,6 +12,14 @@
     font-size: 1.2em;
     line-height: 1.7em;
   }
+  img {
+    @extend %element_transition;
+    opacity: 1;
+  }
+  img:hover {
+    @extend %element_transition;
+    opacity: 0.3;
+  }
 }
 
 // Box Infografico
@@ -21,5 +29,13 @@
   .text {
     font-size: 1.2em;
     line-height: 1.7em;
+  }
+  img {
+    @extend %element_transition;
+    opacity: 1;
+  }
+  img:hover {
+    @extend %element_transition;
+    opacity: 0.3;
   }
 }
