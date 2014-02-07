@@ -22,7 +22,7 @@ module.exports = function (grunt) {
         yeoman: {
             // Configurable paths
             app: 'app',
-            dist: 'dist/eventos2014'
+            dist: 'dist'
         },
 
         // Watches files for changes and runs tasks based on the changed files
@@ -231,7 +231,7 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: '<%= yeoman.app %>/images',
                     src: '{,*/}*.{gif,jpeg,jpg,png}',
-                    dest: '<%= yeoman.dist %>/images'
+                    dest: '<%= yeoman.dist %>/eventos2014/images'
                 }]
             }
         },
@@ -279,15 +279,15 @@ module.exports = function (grunt) {
         //         }
         //     }
         // },
-        uglify: {
-            dist: {
-                files: {
-                    '<%= yeoman.dist %>/scripts/scripts.js': [
-                        '<%= yeoman.dist %>/scripts/scripts.js'
-                    ]
-                }
-            }
-        },
+        // uglify: {
+        //     dist: {
+        //         files: {
+        //             '<%= yeoman.dist %>/scripts/scripts.js': [
+        //                 '<%= yeoman.dist %>/scripts/scripts.js'
+        //             ]
+        //         }
+        //     }
+        // },
         concat: {
             dist: {}
         },
@@ -299,7 +299,7 @@ module.exports = function (grunt) {
                     expand: true,
                     dot: true,
                     cwd: '<%= yeoman.app %>',
-                    dest: '<%= yeoman.dist %>',
+                    dest: '<%= yeoman.dist %>/eventos2014',
                     src: [
                         '*.{ico,png,txt}',
                         '.htaccess',
@@ -395,7 +395,7 @@ module.exports = function (grunt) {
         'cssmin',
         'uglify',
         'copy:dist',
-        'modernizr',
+        // 'modernizr',
         'rev',
         'usemin',
         'htmlmin'
